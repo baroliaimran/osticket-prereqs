@@ -195,12 +195,75 @@ Step 8: Download the executable for HeidiSQL: https://www.heidisql.com/download.
 <p>
 13) Now, in the same Security Tab, click Add. In the pop-up, type in "Everyone". This will allow everyone to be able to make changes to this .php file. DO NOT DO THIS. I am only doing this so as to get the ball rolling in a secure environment. Naturally, please take into account your company's security detail when making any changes!
 </p>
+<p>
+<img src="https://github.com/user-attachments/assets/6cf4c1ad-4fc4-4fca-a793-39bd3436addb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+14) If all went well, you should see the image above.
+</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/74504ec4-89bf-4a46-bfe8-b5f3d803262a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 3
+15) You can start filling out stuff, but you'll get stuck near the bottom, which requires a database login and password. This is so that we have a database to store all the tickets.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/9d4799fc-892d-4932-ab78-7dfee2b71cc1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+16) Go back to the HeidiSQL installer and double-click it. It's a simple install. Once you install it, double-click it to open it.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/23bbba2e-4df8-4e71-a258-1d8baecf6f5b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+17) Earlier, we made a password when configuring MySQL. Bring that password back here.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/93479912-0cb0-4edd-a2fb-3272e59bac43" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+18) Now, create a new database and call it "osTicket".
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/d1e6ec0b-d2a5-4130-b8b9-973944b821f7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+19) Go back to the osTicket Installer webpage and type in the name of the database (osTicket), and the username and password associated with it.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/bc856f16-3fb0-405b-a08b-cf00091f182f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+20) This is what the end result should be.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/81074ee0-fcfd-4836-8d2e-c85200c779cc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+21) To confirm, you can go back to HeidiSQL and see all the data added to the osTicket database.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/b15eea56-db5c-4424-9711-39248c5d7253" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+22) Go to "localhost/osTicket/scp/login.php", and login using the Username and Password used when installing osTicket. 
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/cde003bd-61c0-4210-ab43-27ef7c58c4df" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+23) This is what will be shown on the "Agent Panel". You can click "Admin Panel on the top right to go and view a different set of tabs (further explained in the next part of the osTicket tutorial).
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/01962166-4d38-41b5-bade-97826fde034e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+24) If you go to "localhost/osTicket" you'll see the site where any user can submit a ticket request. 
+</p>
+<p>
+25) And that's all! You've now installed osTicket!
 </p>
 <br />
