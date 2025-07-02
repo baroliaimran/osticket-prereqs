@@ -75,7 +75,9 @@ Step 5: Install VC Redistributable. Simple install, no extra steps here. The lin
 
 <p>
 Step 6: Install MySQL. The link is here: https://www.mysql.com/downloads/. I used v5.5.62 in this tutorial, but you can download the latest version from the link provided.
-  - Simple install, however, you need to configure it further. Check the box that says "Launch Configuration..." after the install is complete, and follow the images below to complete the configuration.
+</p>
+<p>
+The install is simple, however, you need to configure it further. Check the box that says "Launch Configuration..." after the install is complete, and follow the images below to complete the configuration.
 </p>
 <p>
 <img src="https://github.com/user-attachments/assets/67579c17-c87d-4789-8a74-d81b1cd40e98" height="80%" width="80%" alt="Disk Sanitization Steps"/>
