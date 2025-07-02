@@ -66,12 +66,12 @@ Step 4: Go to the C Drive, and create a "PHP" folder. Next, extract the contents
 <br />
 
 <p>
-Install VC Redistributable. Simple install, no extra steps here. The link is here: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170. 
+Step 5: Install VC Redistributable. Simple install, no extra steps here. The link is here: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170. 
 </p>
 <br />
 
 <p>
-Install MySQL. Simple install, no extra steps here. The link is here: https://www.mysql.com/downloads/. I used v5.5.62 in this tutorial, but you can download the latest version from the link provided.
+Step 6: Install MySQL. Simple install, no extra steps here. The link is here: https://www.mysql.com/downloads/. I used v5.5.62 in this tutorial, but you can download the latest version from the link provided.
 </p>
 <br />
 
