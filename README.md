@@ -104,18 +104,36 @@ Step 8: Download the executable for HeidiSQL: https://www.heidisql.com/download.
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/f5d39da4-b701-4600-8e5a-7542de657648" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1
+<img src="https://github.com/user-attachments/assets/814818fe-c97a-45b7-8b96-f6b629f0c46a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/104e127a-b67c-42a5-8b45-0be4d4386e54" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/a6584169-57c0-4ecd-91e8-d7030b27aaa7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+1) Open IIS as an Administrator and double-click on PHP Manager. 
+</p>  
+<p>
+2) Click "Register new PHP version" under PHP Setup.
+</p>
+<p>
+3) Open the path where php-cgi.exe is located (see image above)
+</p>
+<p>
+4) Once that's done, go back to the main page of IIS, right click on the top-level connection, and click "Stop" then click "Start".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/ab14d1ae-d51e-46e6-94b3-83e57a6f5c7c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2
+5) Now, extract the osTicket installation files onto the desktop (or anywhere where you can find the folder easily).
 </p>
 <br />
 
