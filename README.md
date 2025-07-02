@@ -135,6 +135,66 @@ Step 8: Download the executable for HeidiSQL: https://www.heidisql.com/download.
 <p>
 5) Now, extract the osTicket installation files onto the desktop (or anywhere where you can find the folder easily).
 </p>
+<p>
+6) Open the extracted folder and copy the folder named "upload".
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/8b09c73b-d02f-4045-96d7-85a2724be8f9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+7) Go to C:\inetpub\wwwroot\ and paste the "upload" folder there. Once copied, rename the folder to "osTicket" with a capital T. 
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/e9fd0531-8f4c-4b72-a8b6-877ea0b7838b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/f0d60e1d-b178-4456-879b-781777df3ea7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/0b8d9c1a-8ef7-4ce4-823d-36d98cbafec2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+8) Go back to IIS, locate the osTicket folder on the left side of the window (in the cascading list), and click it. Look on the right and it should show "Browse *:80 (http)". Click on it to be redirected to the OS Ticket installer page on your web browser.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/1d53a127-bb6f-4375-b836-336cbb8cce57" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+9) You'll notice some extensions listed at the bottom that are marked with a red X. Go back to IIS\osTicket, double-click PHP Manager, and click on "Enable or disable an extension" at the bottom.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/6fcb69aa-051f-4cb6-ab3f-da49a52f7d8c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+10) Look in the list and enable the following:
+</p>
+<p>
+10a) php_imap.dll
+</p>
+<p>
+10b) php_intl.dll
+</p>
+<p>
+10c) php_opcache.dll
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/414d94c4-0865-4ea8-852a-d53ada95b3a0" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+11) Once that is done, go back and refresh the osTicket Installer page. It will now give an error of a missing config file. Go back to C:\inetpub\wwwroot\osTicket and go into the folder named "include". Scroll down to "ost-sampleconfig.php" and rename it to "ost-config.php".
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/8c3cc736-0c1f-4a28-b64c-0911ede0b315" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+12) After renaming the file, right-click it to open the Properties, and go to the Security tab. Once there, click "Disable Inheritance" at the bottom, click "Remove all inherited permissions from this object".
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/14fdf30d-abf1-40c2-818d-63fd0c5a3531" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+13) Now, in the same Security Tab, click Add. In the pop-up, type in "Everyone". This will allow everyone to be able to make changes to this .php file. DO NOT DO THIS. I am only doing this so as to get the ball rolling in a secure environment. Naturally, please take into account your company's security detail when making any changes!
+</p>
 <br />
 
 <p>
