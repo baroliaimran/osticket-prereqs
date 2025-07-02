@@ -95,6 +95,8 @@ Here you want to put a secure password. I used "root" as an example, but a more 
 
 <p>
 Step 7: Download the zip file for osTicket: https://osticket.com/download/
+</p>
+<p>
 Step 8: Download the executable for HeidiSQL: https://www.heidisql.com/download.php
 </p>
 <br />
