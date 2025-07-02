@@ -75,6 +75,12 @@ Step 6: Install MySQL. Simple install, no extra steps here. The link is here: ht
 </p>
 <br />
 
+<p>
+Step 7: Download the zip file for osTicket: https://osticket.com/download/
+Step 8: Download the executable for HeidiSQL: https://www.heidisql.com/download.php
+</p>
+<br />
+
 <h2>Installation Steps</h2>
 
 <p>
