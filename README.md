@@ -207,7 +207,7 @@ Step 8: Download the executable for HeidiSQL: https://www.heidisql.com/download.
 <img src="https://github.com/user-attachments/assets/74504ec4-89bf-4a46-bfe8-b5f3d803262a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-15) You can start filling out stuff, but you'll get stuck near the bottom, which requires a database login and password. This is so that we have a database to store all the tickets.
+15) You can start filling out stuff (including the admin username and password), but you'll get stuck near the bottom, which requires a database login and password. This is so that we have a database to store all the tickets.
 </p>
 <p>
 <img src="https://github.com/user-attachments/assets/9d4799fc-892d-4932-ab78-7dfee2b71cc1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
