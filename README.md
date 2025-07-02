@@ -61,7 +61,10 @@ Step 3: Install the Rewrite Module. Simple install, no extra steps here. The lin
 <br />
 
 <p>
-Step 4: Go to the C Drive, and create a "PHP" folder. Next, extract the contents of the "php-7.3.8..." zip file into the C:\PHP\ folder. I'm using 7.3.8, however, on "https://windows.php.net/download/", you can get the latest version.
+<img src="https://github.com/user-attachments/assets/630f6abd-4c12-42d0-b7a8-725df23f4a05" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 4: Go to the C Drive, and create a "PHP" folder. Next, extract the contents of the "php-7.3.8..." zip file into the C:\PHP\ folder. I'm using v7.3.8, however, on "https://windows.php.net/download/", you can get the latest version.
 </p>
 <br />
 
@@ -71,7 +74,20 @@ Step 5: Install VC Redistributable. Simple install, no extra steps here. The lin
 <br />
 
 <p>
-Step 6: Install MySQL. Simple install, no extra steps here. The link is here: https://www.mysql.com/downloads/. I used v5.5.62 in this tutorial, but you can download the latest version from the link provided.
+Step 6: Install MySQL. The link is here: https://www.mysql.com/downloads/. I used v5.5.62 in this tutorial, but you can download the latest version from the link provided.
+  - Simple install, however, you need to configure it further. Check the box that says "Launch Configuration..." after the install is complete, and follow the images below to complete the configuration.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/67579c17-c87d-4789-8a74-d81b1cd40e98" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/a619d0a1-6412-4eca-9b1d-5b2f962bc138" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Here you want to put a secure password. I used "root" as an example, but a more secure password is ideal. 
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/b4e2e9df-0a7c-4f4b-907b-0b121db22a58" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
